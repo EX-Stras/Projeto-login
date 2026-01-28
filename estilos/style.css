@@ -112,7 +112,7 @@ input.esq {
 @media screen and (min-width: 601px) and (max-width: 1024px) {
 
     main {
-        transition: 1s;
+        transition: 2s;
         width: 90%;
         height: 370px;
         text-align: left;
@@ -175,9 +175,11 @@ input.esq {
     }
 
     main {
+        transition: 3s;
         width: 80%;
         height: 400px;
         columns: 2;
+        box-shadow: 0 0 10px 1px black;
     }
 
     p.lab {
