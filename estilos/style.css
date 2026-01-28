@@ -215,4 +215,8 @@ input.esq {
     body {
         background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     }
+
+    form {
+        margin: auto;
+    }
 }
