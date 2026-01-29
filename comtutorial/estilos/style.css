@@ -35,4 +35,20 @@ section#login {
     height: 500px;
     border-radius: 20px;
     margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem {
+    height: 200px;
+    width: 100%;
+    background: var(--secondary-color) url(https://images.pexels.com/photos/5475752/pexels-photo-5475752.jpeg);
+    background-size: cover;
+    display: block;
+}
+
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
 }
