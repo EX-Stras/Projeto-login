@@ -110,19 +110,37 @@ form > div.campo {
     background-color: var(--secondary-color);
     height: 40px;
     display: block;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 7px 0;
+    border: 3px solid var(--secondary-color);
 }
 
 div.campo > label > i {
-    padding: 7px ;
+    padding: 8px;
+    color: white;
 }
+
+div.campo > input {
+    font-size: 1em;
+    background-color: #70f9f5;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    width: calc(100% - 45px);
+    transform: translateY(-7.4px)
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     section#login {
         width: 90%;
-        height: 400px;
+        height: 295px;
     }
 
     section#login div#imagem {
@@ -145,7 +163,7 @@ div.campo > label > i {
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
-        height: 400px;
+        height: 340px;
     }
 
      section#login > div#imagem {
@@ -158,6 +176,7 @@ div.campo > label > i {
         float: right;
         width: 50%;
     }
+
 
      main {
         background-image: linear-gradient(to right, var(--secondary-color), var(--primary-color));
